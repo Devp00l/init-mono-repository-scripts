@@ -14,9 +14,9 @@ This script moves all files in a to combine repository into a subdirectory (This
 ## merge-branches-and-tags.sh
 This script is a wrapper around *merge-branch.sh* in order to merge all branches and tags of the given repository.
 
-## merge-all-branches-with-main-and-update-tags.sh
-Does what the name looks like, but it also merges the old main branch into the new main branch.
-
 ## push-everything.sh
 Does exactly what you would expect. It pushes all branches and all tags in your repository.
+
+## merge-all-branches-with-main-and-update-tags.sh
+Does what the name looks like, but it also merges the old main branch into the new main branch. Use this with caution, as it seems to be not the best idea to merge main into all other branches.
 
